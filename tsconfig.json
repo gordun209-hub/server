@@ -1,12 +1,15 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "es2016",
     "strict": true,
-    "module": "ESNext",
+    "module": "commonjs",
     "allowSyntheticDefaultImports": true,
     "types": ["node"],
     "moduleResolution": "node",
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/*.ts", "src/utils/**/*.ts"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
