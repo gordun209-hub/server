@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "strict": true,
+    "module": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts", "src/utils/**/*.ts"]
+}
